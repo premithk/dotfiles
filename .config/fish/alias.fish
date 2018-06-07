@@ -32,22 +32,20 @@ abbr -a gfc git findcommit
 abbr -a gfm git findmessage
 abbr -a gco git checkout
 
-# dotbot
-alias db="git -C ~/.dotfiles"
-abbr -a dbs  db status -s -b
-abbr -a dba  db add
-abbr -a dbc  db commit
-abbr -a dbcm db commit -m
-abbr -a dbp  db push
-abbr -a dbl  db l
-abbr -a dbd  db diff
+# yadm
+abbr -a ys  yadm status -s -b
+abbr -a ya  yadm add
+abbr -a yc  yadm commit
+abbr -a ycm yadm commit -m
+abbr -a yp  yadm push
+abbr -a yl  yadm l
+abbr -a yd  yadm diff
+abbr -a yds yadm diff --staged
 
 # misc
 alias mkdir="mkdir -p"      # Make folder creation recursive
 alias cp="cp -r"            # Make all file copying recursive
 alias vim="nvim"            # Use Neovim instead of vim
-alias view="vim"            # Use vim config when using view
-alias c="pygmentize -g"     # Colored cat
+alias c="bat"               # Colored cat
 alias reload="exec fish"    # Reload fish configs
-abbr -a pjo pj open         # Open project in editor with pj
 
