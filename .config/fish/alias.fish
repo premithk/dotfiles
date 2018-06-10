@@ -1,19 +1,4 @@
-# ls aliases
-alias ls="exa -F"
-alias l="exa -laF"
-
-# directory shortcuts
-alias dl="cd ~/Downloads"
-alias dt="cd ~/Desktop"
-alias dv="cd ~/dev"
-
-# command shortcuts
-alias o="open"
-alias oo="open ."
-
 # git
-alias git="hub"
-alias g="git"
 abbr -a gs  git status -sb
 abbr -a ga  git add
 abbr -a gc  git commit
@@ -41,11 +26,3 @@ abbr -a yp  yadm push
 abbr -a yl  yadm l
 abbr -a yd  yadm diff
 abbr -a yds yadm diff --staged
-
-# misc
-alias mkdir="mkdir -p"      # Make folder creation recursive
-alias cp="cp -r"            # Make all file copying recursive
-alias vim="nvim"            # Use Neovim instead of vim
-alias c="bat"               # Colored cat
-alias reload="exec fish"    # Reload fish configs
-
