@@ -1,6 +1,8 @@
 [user]
 	name = Matan Kushner
 	email = hello@matchai.me
+[commit]
+	template = ~/.gitmessage
 [alias]
 	l = log --pretty=oneline -n 50 --graph --abbrev-commit
 	save = !git add -A && git commit -v -m 'SAVEPOINT'
