@@ -3,5 +3,6 @@ set -l coreutils /usr/local/opt/coreutils
 pathadd $coreutils/libexec/gnubin
 
 # golang
-pathadd $HOME/dev/go
-pathadd $GOPATH/bin
+set -gx GOPATH $HOME/dev/go
+set -gx GOBIN $GOPATH/bin
+pathadd $GOBIN
