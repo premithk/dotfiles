@@ -1,0 +1,24 @@
+#!/bin/bash
+
+echo "Installing homebrew"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install yadm fish
+
+echo "Installing dotfiles"
+yadm clone https://github.com/matchai/dotfiles.git
+
+echo "Installing fish"
+echo $(which fish) | sudo tee -a /etc/shells > /dev/null
+chsh -s $(which fish)
+
+echo "Making directories"
+mkdir ~/dev
+
+~/bin/update
+
+echo "Installing fisher"
+curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs https://git.io/fisher
+fisher
+
+echo "Configuring macOS"
+~/.macos

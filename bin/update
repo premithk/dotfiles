@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cd ~
+
+echo "Updating homebrew"
+brew update
+brew upgrade
+brew bundle 
+brew cleanup
