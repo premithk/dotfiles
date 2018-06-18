@@ -6,3 +6,6 @@ pathadd $coreutils/libexec/gnubin
 set -gx GOPATH $HOME/dev/go
 set -gx GOBIN $GOPATH/bin
 pathadd $GOBIN
+
+# jabba
+sourceadd ~/.jabba/jabba.fish
