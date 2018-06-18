@@ -1,0 +1,46 @@
+{
+    /* ====== Editor Configuration ====== */
+
+    "explorer.openEditors.visible": 0,
+    "files.insertFinalNewline": true,
+    "editor.insertSpaces": false,
+
+    /* ====== Linters ====== */
+
+    // Javascript
+    "eslint.run": "onSave",
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "vue"
+    ],
+
+    /* ====== Editor Styling ====== */
+
+    // Editor
+    "editor.fontFamily": "'Fira Code', Monaco, 'Courier New', monospace, 'Apple Color Emoji'",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 23,
+    "editor.fontLigatures": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 3,
+    "editor.minimap.enabled": false,
+    
+    // Workbench
+    "workbench.colorTheme": "Material Theme Palenight High Contrast",
+    "workbench.iconTheme": "eq-material-theme-icons-palenight",
+    "materialTheme.fixIconsRunning": true,
+    "workbench.statusBar.feedback.visible": false,
+
+    // Custom CSS
+    "vscode_custom_css.imports": [
+        "file:///Users/matchai/.vscode/style.css"
+    ],
+
+    /* ====== Miscellaneous ====== */
+
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "window.zoomLevel": 0
+}
