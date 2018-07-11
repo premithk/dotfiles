@@ -1,46 +1,82 @@
 {
-    /* ====== Editor Configuration ====== */
+    /* ====== Configuration ====== */
 
-    "explorer.openEditors.visible": 0,
+    // Editor
     "files.insertFinalNewline": true,
     "editor.insertSpaces": false,
+    "editor.snippetSuggestions": "top",
+    "editor.detectIndentation": true,
+    "editor.tabSize": 2,
+
+    // Workbench
+    "files.exclude": {
+        "USE_GITIGNORE": true
+      },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/coverage": true
+      },
+    "explorer.confirmDragAndDrop": false,
 
     /* ====== Linters ====== */
 
     // Javascript
-    "eslint.run": "onSave",
+    "javascript.validate.enable": false,
+    "eslint.autoFixOnSave": true,
     "eslint.validate": [
         "javascript",
         "javascriptreact",
         "vue"
     ],
+    "eslint.options": {
+        "rules": {
+          "no-debugger": "off"
+        }
+      },
 
     /* ====== Editor Styling ====== */
 
     // Editor
     "editor.fontFamily": "'Fira Code', Monaco, 'Courier New', monospace, 'Apple Color Emoji'",
-    "editor.fontSize": 14,
+    "editor.fontSize": 15,
     "editor.lineHeight": 23,
     "editor.fontLigatures": true,
     "editor.renderWhitespace": "boundary",
+    "editor.rulers": [ 80 ],
     "editor.cursorStyle": "line",
     "editor.cursorWidth": 3,
     "editor.minimap.enabled": false,
+    "editor.lineNumbers": "relative",
+    "amVim.smartRelativeLineNumbers": true,
+    "bracketPairColorizer.timeOut": 200,
     
     // Workbench
-    "workbench.colorTheme": "Material Theme Palenight High Contrast",
-    "workbench.iconTheme": "eq-material-theme-icons-palenight",
+    "explorer.openEditors.visible": 0,
+    "workbench.colorTheme": "Night Owl",
+    "workbench.iconTheme": "vscode-great-icons",
     "materialTheme.fixIconsRunning": true,
     "workbench.statusBar.feedback.visible": false,
+    "window.zoomLevel": -1,
 
-    // Custom CSS
-    "vscode_custom_css.imports": [
-        "file:///Users/matchai/.vscode/style.css"
+    /* ====== Language Specific ====== */
+
+    "[json]": {
+        "editor.formatOnSave": false,
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+    },
+
+    /* ====== Code Spell Checker ====== */
+
+    "cSpell.enabledLanguageIds": [
+        "markdown",
+        "text"
     ],
 
     /* ====== Miscellaneous ====== */
 
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
-    "window.zoomLevel": 0
 }

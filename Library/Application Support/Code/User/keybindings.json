@@ -1,13 +1,16 @@
 // Place your key bindings in this file to overwrite the defaults
 [
 	{
-		"key": "ctrl+r",
-		"command": "workbench.action.debug.run",
-		"when": "!inDebugMode"
+		"key": "ctrl+l",
+		"command": "workbench.action.focusRightGroup"
 	},
 	{
-		"key": "ctrl+f5",
-		"command": "-workbench.action.debug.run",
-		"when": "!inDebugMode"
-	}
+		"key": "ctrl+h",
+		"command": "workbench.action.focusLeftGroup"
+	},
+	// {
+	// 	"key": "cmd+l",
+	// 	"command": "expandLineSelection",
+	// 	"when": "textInputFocus"
+	// }
 ]
