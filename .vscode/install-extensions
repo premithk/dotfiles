@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+code --install-extension aaron-bond.better-comments
+code --install-extension auiworks.amvim
+code --install-extension bierner.emojisense
+code --install-extension CoenraadS.bracket-pair-colorizer
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension EditorConfig.EditorConfig
+code --install-extension emmanuelbeziat.vscode-great-icons
+code --install-extension mgmcdermott.vscode-language-babel
+code --install-extension sdras.night-owl
+code --install-extension Shan.code-settings-sync
+code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension WallabyJs.quokka-vscode

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd ~
+
+echo "Bundling brew"
+brew bundle dump --force
+

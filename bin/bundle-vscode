@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+installFile=~/.vscode/install-extensions
+
+echo "Bundling vscode extensions"
+
+echo "#!/usr/bin/env bash" > $installFile
+code --list-extensions | xargs -L 1 echo code --install-extension >> $installFile
