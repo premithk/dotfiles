@@ -55,7 +55,6 @@
     "explorer.openEditors.visible": 0,
     "workbench.colorTheme": "Night Owl",
     "workbench.iconTheme": "vscode-great-icons",
-    "materialTheme.fixIconsRunning": true,
     "workbench.statusBar.feedback.visible": false,
     "window.zoomLevel": -1,
 
