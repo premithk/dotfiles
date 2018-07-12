@@ -32,7 +32,6 @@ brew "screen"
 brew "tig"
 brew "tldr"
 brew "tmux"
-brew "trash"
 brew "vim", args: ["with-override-system-vi"]
 brew "watchman"
 brew "yadm"
