@@ -1,5 +1,6 @@
 source ~/.config/fish/alias.fish
 source ~/.config/fish/paths.fish
+source ~/.config/fish/secret.fish
 
 set fish_greeting ""
 
