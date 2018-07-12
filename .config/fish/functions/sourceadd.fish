@@ -1,5 +1,5 @@
 function sourceadd -a srcPath
-  if test -e $path
+  if test -e $srcPath
     source $srcPath
   end
 end
