@@ -2,6 +2,7 @@
     /* ====== Configuration ====== */
 
     // Editor
+    "editor.formatOnSave": true,
     "files.insertFinalNewline": true,
     "editor.insertSpaces": false,
     "editor.snippetSuggestions": "top",
@@ -35,6 +36,15 @@
         }
       },
 
+    "prettier.eslintIntegration": false,
+    "prettier.printWidth": 80,
+    "prettier.tabWidth": 2,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "none",
+    "prettier.jsxBracketSameLine": false,
+    "prettier.useTabs": false,
+    "prettier.proseWrap": "always",
+
     /* ====== Editor Styling ====== */
 
     // Editor
@@ -61,10 +71,13 @@
     /* ====== Language Specific ====== */
 
     "[json]": {
-        "editor.formatOnSave": false,
         "editor.quickSuggestions": {
             "strings": true
         },
+    },
+
+    "[jsonc]": {
+        "editor.formatOnSave": false
     },
 
     /* ====== Code Spell Checker ====== */
