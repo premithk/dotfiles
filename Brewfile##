@@ -11,7 +11,6 @@ brew "fish"
 brew "fzf"
 brew "git"
 brew "gnu-sed", args: ["with-default-names"]
-brew "gnupg"
 brew "go"
 brew "grep", args: ["with-default-names"]
 brew "hub"
@@ -41,8 +40,6 @@ cask "chrome-remote-desktop-host"
 cask "discord"
 cask "firefox"
 cask "flux"
-cask "font-fira-code"
-cask "font-fira-sans"
 cask "gitkraken"
 cask "gitup"
 cask "google-backup-and-sync"
@@ -61,6 +58,8 @@ cask "spotify"
 cask "vagrant"
 cask "virtualbox"
 cask "visual-studio-code"
+cask "homebrew/cask-fonts/font-fira-code"
+cask "homebrew/cask-fonts/font-fira-sans"
 mas "AutoMute", id: 1118136179
 mas "BetterSnapTool", id: 417375580
 mas "Sip", id: 507257563
