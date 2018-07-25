@@ -4,6 +4,7 @@ source ~/.config/fish/paths.fish
 # Source secret if it exists
 sourceadd ~/.config/fish/secret.fish
 
+# Hide the fish greeting
 set fish_greeting ""
 
 # Spacefish config
