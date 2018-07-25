@@ -22,3 +22,9 @@ set -gx M2_HOME ~/.m2
 # gnupg
 set -gx GPG_TTY (tty)
 
+# rust
+pathadd ~/.cargo/bin
+
+# Python3
+pathadd ~/Library/Python/3.7/bin
+
