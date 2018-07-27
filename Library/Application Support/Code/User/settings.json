@@ -66,6 +66,7 @@
     "workbench.colorTheme": "Night Owl",
     "workbench.iconTheme": "vscode-great-icons",
     "workbench.statusBar.feedback.visible": false,
+    "workbench.startupEditor": "newUntitledFile",
     "window.zoomLevel": -1,
 
     /* ====== Language Specific ====== */
@@ -76,8 +77,14 @@
         },
     },
 
+    // Don't reformat the vscode settings file
     "[jsonc]": {
         "editor.formatOnSave": false
+    },
+
+    // JSON5 theme support isn't great for now
+    "files.associations": {
+        "*.json5": "jsonc"
     },
 
     /* ====== Code Spell Checker ====== */
