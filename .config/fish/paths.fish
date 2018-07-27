@@ -25,6 +25,7 @@ set -gx GPG_TTY (tty)
 # rust
 pathadd ~/.cargo/bin
 
-# Python3
+# Python
+pathadd ~/Library/Python/2.7/bin
 pathadd ~/Library/Python/3.7/bin
 
