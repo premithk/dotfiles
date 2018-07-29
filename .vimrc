@@ -37,6 +37,10 @@ Plug 'itchyny/lightline.vim'
 " Snazzy: light and bright color scheme
 Plug 'connorholyday/vim-snazzy'
 
+" Fzf: fuzzy finder
+Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf.vim'
+
 " Initialize plugin system
 call plug#end()
 
