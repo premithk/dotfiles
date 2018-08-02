@@ -11,8 +11,7 @@ On a completely fresh installation of macOS:
 
 ## License
 
-Copyright (c) Matan Kushner. Released under the MIT License. See
-[LICENSE.md][license] for details.
+[MIT][license] © Matan Kushner
 
 [yadm]: (https://thelocehiliosan.github.io/yadm/
-[license]: LICENSE.md
+[license]: LICENSE
