@@ -13,9 +13,6 @@ set -gx GOPATH $HOME/dev/go
 set -gx GOBIN $GOPATH/bin
 pathadd $GOBIN
 
-# jabba
-sourceadd ~/.jabba/jabba.fish
-
 # M2
 set -gx M2_HOME ~/.m2
 
