@@ -23,27 +23,22 @@
     /* ====== Linters ====== */
 
     // Javascript
+    "javascript.format.enable": false,
     "javascript.validate.enable": false,
     "eslint.autoFixOnSave": true,
     "eslint.validate": [
         "javascript",
         "javascriptreact",
-        "vue"
+        {
+            "language": "vue",
+            "autoFix": true
+        }
     ],
     "eslint.options": {
         "rules": {
           "no-debugger": "off"
         }
       },
-
-    "prettier.eslintIntegration": false,
-    "prettier.printWidth": 80,
-    "prettier.tabWidth": 2,
-    "prettier.singleQuote": true,
-    "prettier.trailingComma": "none",
-    "prettier.jsxBracketSameLine": false,
-    "prettier.useTabs": false,
-    "prettier.proseWrap": "always",
 
     /* ====== Editor Styling ====== */
 
