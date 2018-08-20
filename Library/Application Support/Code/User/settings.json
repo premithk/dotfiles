@@ -20,21 +20,29 @@
       },
     "explorer.confirmDragAndDrop": false,
 
+    // Terminal
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.lineHeight": 1,
+
     /* ====== Linters ====== */
 
     // Javascript
+    "javascript.format.enable": false,
     "javascript.validate.enable": false,
     "eslint.autoFixOnSave": true,
     "eslint.validate": [
         "javascript",
         "javascriptreact",
-        "vue"
+        {
+            "language": "vue",
+            "autoFix": true
+        }
     ],
     "eslint.options": {
         "rules": {
           "no-debugger": "off"
         }
-      },
+    },
 
     "prettier.eslintIntegration": false,
     "prettier.printWidth": 80,
@@ -50,7 +58,7 @@
     // Editor
     "editor.fontFamily": "'Fira Code', Monaco, 'Courier New', monospace, 'Apple Color Emoji'",
     "editor.fontSize": 15,
-    "editor.lineHeight": 23,
+    "editor.lineHeight": 25,
     "editor.fontLigatures": true,
     "editor.renderWhitespace": "boundary",
     "editor.rulers": [ 80 ],
@@ -67,7 +75,7 @@
     "workbench.iconTheme": "vscode-great-icons",
     "workbench.statusBar.feedback.visible": false,
     "workbench.startupEditor": "newUntitledFile",
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 0,
 
     /* ====== Language Specific ====== */
 
