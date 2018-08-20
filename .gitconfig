@@ -1,5 +1,6 @@
 [commit]
 	template = ~/.gitmessage
+	gpgsign = true
 [alias]
 	l = log --pretty=oneline -n 50 --graph --abbrev-commit
 	save = !git add -A && git commit -v -m 'SAVEPOINT'
@@ -33,4 +34,7 @@
 	prune = true
 [include]
 	path = .gitconfig.local
-
+[user]
+	signingkey = 6C86A6686DAA11C762E0F9E266A662BB69BF3175
+[gpg]
+	program = /usr/local/MacGPG2/bin/gpg

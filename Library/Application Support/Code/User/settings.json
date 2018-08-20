@@ -44,15 +44,6 @@
         }
     },
 
-    "prettier.eslintIntegration": false,
-    "prettier.printWidth": 80,
-    "prettier.tabWidth": 2,
-    "prettier.singleQuote": true,
-    "prettier.trailingComma": "none",
-    "prettier.jsxBracketSameLine": false,
-    "prettier.useTabs": false,
-    "prettier.proseWrap": "always",
-
     /* ====== Editor Styling ====== */
 
     // Editor
