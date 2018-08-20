@@ -41,6 +41,9 @@ Plug 'connorholyday/vim-snazzy'
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 
+" Wakatime: time tracking
+Plug 'wakatime/vim-wakatime'
+
 " Initialize plugin system
 call plug#end()
 
