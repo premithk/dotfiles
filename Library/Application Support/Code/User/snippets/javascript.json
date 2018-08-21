@@ -1,0 +1,40 @@
+{
+  // Place your snippets for javascript here. Each snippet is defined under a snippet name and has a prefix, body and
+  // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+  // same ids are connected.
+  // Example:
+  // "Print to console": {
+  // 	"prefix": "log",
+  // 	"body": [
+  // 		"console.log('$1');",
+  // 		"$2"
+  // 	],
+  // 	"description": "Log output to console"
+  // }
+
+  "Throw log": {
+    "prefix": "tl",
+    "body": "throw new Error(JSON.stringify({$0}, null, 2))"
+  },
+  "eslint/disable": {
+    "prefix": "esd",
+    "body": "/* eslint-disable $rules */",
+    "description": "Disable eslint rule warnings in a file"
+  },
+  "eslint/disable-line": {
+    "prefix": "esl",
+    "body": "// eslint-disable-line $rules",
+    "description": "Disable eslint rule warnings on a line"
+  },
+  "eslint/disable-next-line": {
+    "prefix": "esnl",
+    "body": "// eslint-disable-next-line $rules",
+    "description": "Disable eslint rule warnings on the next line"
+  },
+  "eslint/global": {
+    "prefix": "esg",
+    "body": "/* global $globals */",
+    "description": "Define global variables for eslint"
+  }
+}
