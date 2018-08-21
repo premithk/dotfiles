@@ -34,7 +34,5 @@
 	prune = true
 [include]
 	path = .gitconfig.local
-[user]
-	signingkey = 6C86A6686DAA11C762E0F9E266A662BB69BF3175
 [gpg]
 	program = /usr/local/MacGPG2/bin/gpg

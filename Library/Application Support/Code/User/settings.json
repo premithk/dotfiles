@@ -20,6 +20,10 @@
       },
     "explorer.confirmDragAndDrop": false,
 
+    // Terminal
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.lineHeight": 1,
+
     /* ====== Linters ====== */
 
     // Javascript
@@ -38,14 +42,14 @@
         "rules": {
           "no-debugger": "off"
         }
-      },
+    },
 
     /* ====== Editor Styling ====== */
 
     // Editor
     "editor.fontFamily": "'Fira Code', Monaco, 'Courier New', monospace, 'Apple Color Emoji'",
     "editor.fontSize": 15,
-    "editor.lineHeight": 23,
+    "editor.lineHeight": 25,
     "editor.fontLigatures": true,
     "editor.renderWhitespace": "boundary",
     "editor.rulers": [ 80 ],
@@ -62,7 +66,7 @@
     "workbench.iconTheme": "vscode-great-icons",
     "workbench.statusBar.feedback.visible": false,
     "workbench.startupEditor": "newUntitledFile",
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 0,
 
     /* ====== Language Specific ====== */
 
