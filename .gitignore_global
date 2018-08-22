@@ -34,3 +34,4 @@ Desktop.ini
 # Custom fish env files
 .fish.env
 .fish.out
+.envrc
