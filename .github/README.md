@@ -7,7 +7,7 @@ Dotfiles uses [yadm][yadm] for installation.
 
 On a completely fresh installation of macOS:
 
-    curl -L http://setup.matchai.me | sudo bash
+    curl -L http://setup.matchai.me | bash
 
 ## License
 

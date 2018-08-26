@@ -11,9 +11,6 @@ fisher
 echo "Updating fisher packages"
 fisher update
 
-echo "Installing vscode extensions"
-~/.vscode/install-extensions
-
 echo "Installing homebrew packages"
 brew bundle 
 
@@ -23,4 +20,7 @@ brew upgrade
 
 echo "Cleaning up homebrew"
 brew cleanup
+
+echo "Installing vscode extensions"
+~/.vscode/install-extensions
 
