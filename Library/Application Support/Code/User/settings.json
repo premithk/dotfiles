@@ -4,7 +4,6 @@
     // Editor
     "editor.formatOnSave": true,
     "files.insertFinalNewline": true,
-    "editor.insertSpaces": false,
     "editor.snippetSuggestions": "top",
     "editor.detectIndentation": true,
     "editor.tabSize": 2,
@@ -12,12 +11,12 @@
     // Workbench
     "files.exclude": {
         "USE_GITIGNORE": true
-      },
+    },
     "search.exclude": {
         "**/node_modules": true,
         "**/bower_components": true,
         "**/coverage": true
-      },
+    },
     "explorer.confirmDragAndDrop": false,
 
     // Terminal
@@ -66,7 +65,7 @@
     "workbench.iconTheme": "vscode-great-icons",
     "workbench.statusBar.feedback.visible": false,
     "workbench.startupEditor": "newUntitledFile",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
 
     /* ====== Language Specific ====== */
 
