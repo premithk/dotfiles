@@ -18,6 +18,7 @@
         "**/coverage": true
     },
     "explorer.confirmDragAndDrop": false,
+    "workbench.settings.editor": "json",
 
     // Terminal
     "terminal.integrated.fontSize": 16,
