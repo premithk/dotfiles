@@ -167,6 +167,10 @@ defaults write com.apple.screencapture disable-shadow -bool true
 # Reference: https://github.com/kevinSuttle/macOS-Defaults/issues/17#issuecomment-266633501
 defaults write NSGlobalDomain AppleFontSmoothing -int 1
 
+# Enable font smoothing when not using a high-DPI monitor
+# Reference: https://github.com/Microsoft/vscode/issues/51132#issue-329366206
+defaults write CGFontRenderingFontSmoothingDisabled -bool NO
+
 # Enable HiDPI display modes (requires restart)
 sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutionEnabled -bool true
 
