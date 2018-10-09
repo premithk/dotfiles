@@ -74,10 +74,15 @@
         "editor.quickSuggestions": {
             "strings": true
         },
+        "editor.formatOnSave": false
     },
 
     // Don't reformat the vscode settings file
     "[jsonc]": {
+        "editor.formatOnSave": false
+    },
+
+    "[fish]": {
         "editor.formatOnSave": false
     },
 
