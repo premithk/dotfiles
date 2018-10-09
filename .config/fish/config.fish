@@ -7,6 +7,9 @@ sourceadd ~/.config/fish/secret.fish
 # jabba
 sourceadd ~/.jabba/jabba.fish
 
+# Load all saved ssh keys
+/usr/bin/ssh-add -A ^/dev/null
+
 # Hide the fish greeting
 set fish_greeting ""
 
