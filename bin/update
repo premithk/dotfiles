@@ -8,9 +8,6 @@ yadm decrypt
 echo "Installing fisher packages"
 fisher
 
-echo "Updating fisher packages"
-fisher update
-
 echo "Installing homebrew packages"
 brew bundle 
 

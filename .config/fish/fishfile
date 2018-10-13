@@ -1,8 +1,5 @@
-fisherman/await
-laughedelic/brew-completions
-fisherman/fishtape
-fisherman/fzf
-fisherman/last_job_id
-oh-my-fish/plugin-osx
 matchai/spacefish
-fisherman/z
+fisherman/fishtape
+jethrokuan/z
+fisherman/fzf
+laughedelic/brew-completions
