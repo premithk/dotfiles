@@ -14,7 +14,7 @@ brew "fzf"
 brew "git"
 brew "git-lfs"
 brew "gnu-sed", args: ["with-default-names"]
-brew "gnupg"
+brew "gnupg", link: false
 brew "go"
 brew "grep", args: ["with-default-names"]
 brew "hub"
@@ -24,7 +24,6 @@ brew "less"
 brew "mas"
 brew "maven"
 brew "moreutils"
-brew "n"
 brew "nano"
 brew "neovim"
 brew "openssh"
