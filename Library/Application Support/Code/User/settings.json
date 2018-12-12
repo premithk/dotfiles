@@ -4,6 +4,7 @@
     // Editor
     "editor.formatOnSave": true,
     "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
     "editor.snippetSuggestions": "top",
     "editor.detectIndentation": true,
     "editor.tabSize": 2,
@@ -65,9 +66,13 @@
     "explorer.openEditors.visible": 0,
     "workbench.colorTheme": "Night Owl",
     "workbench.iconTheme": "vscode-great-icons",
-    "workbench.statusBar.feedback.visible": false,
     "workbench.startupEditor": "newUntitledFile",
     "window.zoomLevel": -1,
+
+    // Statusbar
+    "liveshare.showInStatusBar": "whileCollaborating",
+    "workbench.statusBar.feedback.visible": false,
+    "cSpell.showStatus": false,
 
     /* ====== Language Specific ====== */
 
@@ -103,4 +108,11 @@
 
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
+    "githubPullRequests.hosts": [
+        {
+            "host": "https://github.com",
+            "username": "oauth",
+            "token": "system"
+        }
+    ]
 }
