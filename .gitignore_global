@@ -9,7 +9,6 @@
 
 # Editing tools and IDEs
 .idea
-.vscode
 
 # Logs and databases
 *.log
