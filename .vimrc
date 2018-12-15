@@ -44,6 +44,9 @@ Plug 'junegunn/fzf.vim'
 " Wakatime: time tracking
 Plug 'wakatime/vim-wakatime'
 
+" Elvish: Elvish syntax highlighter
+Plug 'dmix/elvish.vim', { 'on_ft': ['elvish']}
+
 " Initialize plugin system
 call plug#end()
 
