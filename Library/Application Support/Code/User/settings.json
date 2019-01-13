@@ -2,7 +2,7 @@
     /* ====== Configuration ====== */
 
     // Editor
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "editor.snippetSuggestions": "top",
@@ -50,7 +50,7 @@
 
     // Editor
     "editor.fontFamily": "'Fira Code', Monaco, 'Courier New', monospace, 'Apple Color Emoji'",
-    "editor.fontSize": 15,
+    "editor.fontSize": 16,
     "editor.lineHeight": 25,
     "editor.fontLigatures": true,
     "editor.renderWhitespace": "boundary",
@@ -107,12 +107,5 @@
     /* ====== Miscellaneous ====== */
 
     "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false,
-    "githubPullRequests.hosts": [
-        {
-            "host": "https://github.com",
-            "username": "oauth",
-            "token": "system"
-        }
-    ]
+    "telemetry.enableCrashReporter": false
 }
