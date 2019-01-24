@@ -4,6 +4,10 @@ pathadd ~/bin
 # brew
 pathadd /usr/local/sbin
 
+# python
+# set `python3` as `python`
+pathadd /usr/local/opt/python/libexec/bin
+
 # coreutils
 set -l coreutils /usr/local/opt/coreutils
 pathadd $coreutils/libexec/gnubin
