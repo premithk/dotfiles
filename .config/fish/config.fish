@@ -22,3 +22,17 @@ set -g SPACEFISH_EXEC_TIME_ELAPSED 2
 
 # Use legacy fzf keybindings
 set -g FZF_LEGACY_KEYBINDINGS 1
+
+# Fish syntax highlighting
+set -g fish_color_normal  normal
+set -g fish_color_command green
+set -g fish_color_param normal
+set -g fish_color_redirection green
+set -g fish_color_comment brblack
+set -g fish_color_error red
+set -g fish_color_escape brblue
+set -g fish_color_operator brblue
+set -g fish_color_end green
+set -g fish_color_quote yellow
+set -g fish_color_autosuggestion brblack
+
