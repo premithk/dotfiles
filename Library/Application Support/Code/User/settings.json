@@ -27,7 +27,7 @@
 
   // Terminal
   "terminal.integrated.fontSize": 16,
-  "terminal.integrated.lineHeight": 1,
+  "terminal.integrated.lineHeight": 1.2,
 
   /* ====== Linters ====== */
 
@@ -64,7 +64,7 @@
   /* ====== Editor Styling ====== */
 
   // Editor
-  "editor.fontFamily": "'Fira Code', Monaco, 'Courier New', monospace, 'Apple Color Emoji'",
+  "editor.fontFamily": "'Fira Code', Monaco,  monospace, 'Apple Color Emoji'",
   "editor.fontSize": 16,
   "editor.lineHeight": 25,
   "editor.fontLigatures": true,
@@ -83,11 +83,13 @@
   "workbench.colorTheme": "Night Owl",
   "workbench.iconTheme": "vscode-great-icons",
   "workbench.startupEditor": "newUntitledFile",
-  "window.zoomLevel": -1,
+  "workbench.activityBar.visible": false,
+  "window.zoomLevel": 0,
 
   // Statusbar
   "liveshare.showInStatusBar": "whileCollaborating",
   "workbench.statusBar.feedback.visible": false,
+  "spellright.statusBarIndicator": false,
 
   // JSON5 theme support isn't great for now
   "files.associations": {
