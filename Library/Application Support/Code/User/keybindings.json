@@ -16,5 +16,9 @@
 		"key": "cmd+j",
 		"command": "workbench.action.focusPanel",
 		"when": "!terminalFocus"
+	},
+	{
+		"key": "alt+cmd+n",
+		"command": "explorer.newFile"
 	}
 ]

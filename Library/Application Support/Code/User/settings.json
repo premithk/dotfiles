@@ -2,13 +2,13 @@
   /* ====== Configuration ====== */
 
   // Editor
-  "editor.formatOnSave": false,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "editor.snippetSuggestions": "top",
   "editor.detectIndentation": true,
   "editor.tabSize": 2,
   "editor.folding": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "emmet.triggerExpansionOnTab": true,
 
   // Workbench
@@ -29,12 +29,15 @@
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.lineHeight": 1.2,
 
-  /* ====== Linters ====== */
+  /* ====== Language-specific ====== */
 
   // Javascript
-  "javascript.format.enable": false,
-  "javascript.validate.enable": false,
-  "eslint.autoFixOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false
+  },
   "eslint.validate": [
     "javascript",
     "javascriptreact",
@@ -43,39 +46,36 @@
       "autoFix": true
     }
   ],
-  "eslint.options": {
-    "env": {
-      "browser": true,
-      "jest/globals": true,
-      "es6": true
-    },
-    "parserOptions": {
-      "ecmaVersion": 2018,
-      "sourceType": "module",
-      "ecmaFeatures": {
-        "jsx": true
-      }
-    },
-    "rules": {
-      "no-debugger": "off"
-    }
+
+  // JSON-C
+  "[jsonc]": {
+    "editor.formatOnSave": false
+  },
+
+  // Fish
+  "[fish]": {
+    "editor.formatOnSave": false
+  },
+
+  // Rust
+  "[rust]": {
+    "editor.tabSize": 4
   },
 
   /* ====== Editor Styling ====== */
 
   // Editor
-  "editor.fontFamily": "'Fira Code', Monaco,  monospace, 'Apple Color Emoji'",
+  "editor.fontFamily": "'Fira Code', Monaco, monospace, 'Apple Color Emoji'",
   "editor.fontSize": 16,
   "editor.lineHeight": 25,
   "editor.fontLigatures": true,
   "editor.renderWhitespace": "boundary",
-  "editor.rulers": [
-    80
-  ],
+  "editor.rulers": [80],
   "editor.cursorStyle": "line",
   "editor.cursorWidth": 3,
   "editor.minimap.enabled": false,
   "editor.lineNumbers": "relative",
+  "breadcrumbs.enabled": false,
   "amVim.smartRelativeLineNumbers": true,
 
   // Workbench
@@ -84,11 +84,11 @@
   "workbench.iconTheme": "vscode-great-icons",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.activityBar.visible": false,
-  "window.zoomLevel": 0,
+  "workbench.list.automaticKeyboardNavigation": false,
+  "window.zoomLevel": 1,
 
   // Statusbar
   "liveshare.showInStatusBar": "whileCollaborating",
-  "workbench.statusBar.feedback.visible": false,
   "spellright.statusBarIndicator": false,
 
   // JSON5 theme support isn't great for now
@@ -105,6 +105,11 @@
 
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.suggestSelection": "first",
+  "liveshare.featureSet": "stable",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 
   /* ====== Display Modes ====== */
   // screenshare
