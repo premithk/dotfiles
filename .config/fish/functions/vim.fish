@@ -1,4 +1,6 @@
 function vim --description 'alias vim=nvim'
-    command nvim $argv;
+    # Temporarily disabling the nvim alias
+    # command nvim $argv;
+    command vim $argv;
 end
 

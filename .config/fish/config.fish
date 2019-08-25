@@ -16,10 +16,6 @@ set -g fish_emoji_width 2
 # Hide the fish greeting
 set fish_greeting ""
 
-# Spacefish config
-set -g SPACEFISH_CHAR_SYMBOL ❯
-set -g SPACEFISH_EXEC_TIME_ELAPSED 2
-
 # Use legacy fzf keybindings
 set -g FZF_LEGACY_KEYBINDINGS 1
 
@@ -46,4 +42,6 @@ set -g fish_color_selection 'white'  '--bold'  '--background=brblack'
 set -g fish_color_user brgreen
 set -g fish_color_valid_path --underline
 
+# Install Starship
 eval (starship init fish)
+
