@@ -41,10 +41,9 @@
   "eslint.validate": [
     "javascript",
     "javascriptreact",
-    {
-      "language": "vue",
-      "autoFix": true
-    }
+    "typescript",
+    "typescriptreact",
+    "vue"
   ],
 
   // JSON-C
@@ -109,7 +108,8 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.suggestSelection": "first",
   "liveshare.featureSet": "stable",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.statusBar.visible": false
 
   /* ====== Display Modes ====== */
   // screenshare
