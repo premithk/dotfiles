@@ -18,6 +18,8 @@
 	default = current
 [branch]
 	autosetupmerge = true
+[advice]
+	detachedHead = false
 [color]
 	ui = true
 [color "diff-highlight"]
